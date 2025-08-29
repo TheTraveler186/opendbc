@@ -514,21 +514,7 @@ FW_VERSIONS = {
   CAR.GENESIS_G80_2020: {
     (Ecu.combinationMeter, 0x7c6, None): [
       b'\xf1\x00641',
-    ],    
-    (Ecu.transmission, 0x7e1, None): [
-      b'\xf1\x00bcsh8p54  E18\x00\x00\x00\x00\x00\x00\x00SDH0T33NH3\x97\xe6\xbc\xb8',
     ],
-    (Ecu.fwdRadar, 0x7d0, None): [
-      b'\xf1\x00DH__ SCC F-CUP      1.00 1.02 96400-B1120         ',
-    ],
-    (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00DH  LKAS AT USA LHD 1.01 1.04 95895-B1500 181213',
-    ],
-  },
-  CAR.GENESIS_G80_2020: {
-    (Ecu.combinationMeter, 0x7c6, None): [
-      b'\xf1\x00641',
-    ],    
     (Ecu.transmission, 0x7e1, None): [
       b'\xf1\x00bcsh8p54  E18\x00\x00\x00\x00\x00\x00\x00SDH0T33NH3\x97\xe6\xbc\xb8',
     ],
