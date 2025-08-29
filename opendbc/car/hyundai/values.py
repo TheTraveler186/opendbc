@@ -583,7 +583,7 @@ class CAR(Platforms):
     CarSpecs(mass=2060, wheelbase=3.01, steerRatio=16.5),
     flags=HyundaiFlags.LEGACY,
   )
-  GENESIS_G80_2020: HyundaiCanFDPlatformConfig(
+  GENESIS_G80_2020 = HyundaiCanFDPlatformConfig(
     [HyundaiCarDocs("Genesis G80 (2020)", "All trims", car_parts=CarParts.common([CarHarness.hyundai_h]))],
     CarSpecs(mass=2196, wheelbase=3.01, steerRatio=16.5),
   )
